@@ -1,0 +1,86 @@
+body {
+    background-color: #88869c;
+    padding: 0px;
+    margin: 0px;
+    ;
+}
+
+/* giving the background colour to the body and making padding and margin 0*/
+
+.main {
+
+    border: solid 2px rgb(250, 247, 247);
+    border-radius: 30px;
+    margin: 50px;
+    padding: 20px 400px 20px 400px;
+    background-color: #f0edf2;
+
+}
+
+/* styling the main div that contains the image
+ and related information using class method*/
+
+h1 {
+    text-transform: uppercase;
+    color: #796987;
+
+}
+
+/*styling the h1 tag*/
+
+input {
+    border-radius: 20px;
+    background-color: #92dfdb;
+    
+    width: 200px;
+    color: #7b52c7;
+    font-size: x-large;
+    text-transform: uppercase;
+   
+
+}
+
+/*styling the input tag*/
+h2 {
+    padding-left: 180px;
+    text-transform: uppercase;
+    color: #796987;
+}
+
+/*styling the h2 tag*/
+
+input:hover {
+    color: rgb(247, 8, 8);
+}
+
+/* using the pseudo class to change the color of text when someone hovers it*/
+
+.container{
+    display: flex;
+    width:500px;
+    height:50px;
+}
+.spec{
+    width:250px;
+    text-align: center;
+
+}
+
+.buy{
+    display:flex;
+
+ width:500px;
+ padding: 20px;
+
+}
+.add{
+    width:250px;
+}
+a{
+    text-transform: uppercase;
+    color: #88869c;
+}
+a:hover{
+    color:red;
+}
+/* styling the anchor tag and providing the hover effect*/ 
